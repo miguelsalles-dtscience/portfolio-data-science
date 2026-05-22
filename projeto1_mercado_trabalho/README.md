@@ -11,14 +11,12 @@
 
 ## 🎯 Objetivo
 
-Analisar a evolução do desemprego no Brasil entre 2022 e 2024, identificando padrões regionais, gaps de gênero/raça e o impacto da escolaridade na empregabilidade e renda — com dados reais da PNAD Contínua via API SIDRA/IBGE.
+Analisar a evolução do desemprego no Brasil entre 2022 e 2024, identificando padrões regionais, gaps de gênero/raça e o impacto da escolaridade na empregabilidade e renda, além de trazer perspectivas com gráficos que normalmente passam despercebidas pela população — com dados reais da PNAD Contínua via API SIDRA/IBGE.
 
 ---
 
 ## 📌 Principais Insights
 
-| Indicador | Resultado |
-|-----------|-----------|
 | Taxa de desocupação (4ºT2024) | **6,1%** — menor desde 2012 |
 | Queda no período analisado | **−5,0 p.p.** entre 1ºT2022 e 4ºT2024 |
 | Maior desemprego regional | Nordeste: **10,2%** |
@@ -53,9 +51,9 @@ projeto1_mercado_trabalho/
 ## 📊 Visualizações
 
 ### Painel Principal
-- Evolução trimestral da taxa de desocupação (2022–2024)
-- Desocupação por grande região com destaque para máximo/mínimo
-- Relação entre escolaridade, desemprego e rendimento médio
+- Evolução trimestral da taxa de desocupação (2022–2024) -- Gráfico 1
+- Desocupação por grande região com destaque para máximo/mínimo -- Gráfico 2
+- Relação entre escolaridade, desemprego e rendimento médio -- Gráfico 3
 
 ### Painel de Desigualdades
 - Taxa de desocupação por gênero × raça/cor
@@ -67,7 +65,7 @@ projeto1_mercado_trabalho/
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/MSallesR/portfolio-data-science
+git clone https://github.com/miguelsalles-dtscience/portfolio-data-science
 cd portfolio-data-science/projeto1_mercado_trabalho
 
 # 2. Instale as dependências
@@ -84,9 +82,9 @@ python src/analise.py
 ## 🔧 Tecnologias
 
 - **pandas** — manipulação e agregação de dados
-- **matplotlib / seaborn** — visualizações estáticas
+- **matplotlib / seaborn** — visualizações estáticas personalizadas
 - **requests** — coleta via API REST (SIDRA/IBGE)
-- **numpy** — operações numéricas
+- **numpy** — operações numéricas com funções da biblioteca
 
 ---
 
@@ -101,4 +99,4 @@ python src/analise.py
 
 **Miguel Salles Reis**
 Estudante de Estatística — UFMG | Desenvolvedor Python
-[github.com/MSallesR](https://github.com/MSallesR) · miguelsallesreis@gmail.com
+[github.com/MSallesR](https://github.com/miguelsalles-dtscience) · miguelsalles.dtscience@gmail.com
